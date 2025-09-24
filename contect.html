@@ -1,51 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - TrackIndia Adventures</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f9f9f9;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-            text-align: center;
-        }
-
-        h2 {
-            color:blue;
-            margin-bottom:15px;
-        }
-
-        p {
-            margin:8px 0;
-            font-size:1rem;
-        }
-
-        u {
-            color: blue;
-        }
-
-        .contact-box {
-            background: white;
-            display: inline-block;
-            padding: 20px 30px;
-          
-         
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - TrekIndia Adventures</title>
 </head>
 <body>
 
-    <div class="contact-box">
-        <h2>Contact Us</h2>
-        <p>For queries regarding bookings, packages, or support, reach out to us anytime.</p>
-        <p>Email: <u>trekindia1@gmail.com</u></p>
-        <p>Helpline Number: 1800-123-4567</p>
-        <p>WhatsApp Number: +91 98001 29291</p>
-    </div>
+  <table border="1" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+      <td>
+        <h2 align="center">Contact Us</h2>
+        <p>Email: trekindia1@gmail.com</p>
+      
+
+        <h3 align="center">Enquiry Form</h3>
+        <form>
+          <label>Full Name:</label><br>
+          <input type="text" name="name"><br><br>
+
+          <label>Email Address:</label><br>
+          <input type="email" name="email"><br><br>
+
+          <label>Phone Number:</label><br>
+          <input type="tel" name="phone"><br><br>
+
+          <label>Select Destination:</label><br>
+          <select name="destination">
+            <option value="">--Choose a Destination--</option>
+            <option>Himachal Pradesh</option>
+            <option>Kashmir</option>
+            <option>Kerala</option>
+            <option>Meghalaya</option>
+            <option>Uttarakhand</option>
+          </select><br><br>
+
+          <label>Message:</label><br>
+          <textarea name="message" rows="4" cols="35"></textarea><br><br>
+
+          <button type="submit">Submit</button>
+        </form>
+      </td>
+    </tr>
+  </table>
 
 </body>
 </html>
